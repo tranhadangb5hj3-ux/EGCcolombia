@@ -1,0 +1,501 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300;400&display=swap');
+
+
+  @font-face {
+      font-family: GTEAPAC;
+      font-family: zesant;
+      src: url(Fuentes/zesant);
+      font-family: 'Poppins', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      
+  }
+  
+  
+  html{
+      scroll-behavior: smooth;
+  }
+  
+  *{
+  
+  
+  
+  
+      
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+      text-decoration: none;
+      list-style: none;
+      
+      
+      
+  
+     
+  
+  }
+  
+  
+  /*Barra de navegacion*/
+  
+/*Barra de navegacion*/
+
+nav{
+    box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.24);
+    background-color: white;
+    top: 0;
+    
+    
+}
+nav ul{
+    margin-left: 25%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+   
+
+}
+nav ul li{
+    margin-left: 8%;
+    
+
+}
+
+nav ul li .cotizanav a{
+    color: #bcc20e;
+    transition: .2s;
+}
+
+
+
+nav ul li a:hover{
+    background-color: #2889c917;
+    border-radius: 10px;
+}
+
+
+
+
+/* Bolsas y empaques*/
+
+
+
+
+
+#Bolsasdepapel{
+    background-color: rgb(245, 243, 242);
+    padding-top: 7%;
+
+
+}
+
+#Bolsasdepapel h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    color: #2888C9;
+}
+
+
+
+#Bolsasdepapel .card{
+    border: none;
+    box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.6);
+    margin-left: 5%;
+    margin-top: 2%;
+    
+
+
+
+
+}
+
+
+
+#Bolsasdepapel .card a{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    transition: .2s;
+    color: #E62188;
+    
+    border-color:#E62188;
+
+    
+}
+
+#Bolsasdepapel .card a:hover{
+
+    
+   
+    background-color: #E62188;
+    color:#ffffff ;
+    
+}
+
+#Bolsasdepapel .card p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    
+}
+
+
+
+
+#Empaquesycajas{
+    background-color: rgb(245, 243, 242);
+    padding-top: 2%;
+
+
+}
+
+#Empaquesycajas h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    color: #bcc20e;
+}
+
+
+#Empaquesycajas .card{
+    border: none;
+    box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.6);
+    margin-left: 10%;
+    margin-top: 2%;
+
+
+
+}
+
+
+#Empaquesycajas .card a{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    transition: .2s;
+    color: #2888C9;
+    
+    border-color:#2888C9;
+
+    
+}
+
+#Empaquesycajas .card a:hover{
+
+    
+   
+    background-color: #2888C9;
+    color:#ffffff ;
+    
+}
+
+#Empaquesycajas .card p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    
+}
+
+
+
+
+
+/*footer*/
+
+
+
+
+
+footer{
+    background-color: #2888C9;
+    height: 90px;
+}
+
+
+footer .interiordefooter{
+    display: flex;
+    
+}
+
+
+footer .interiordefooter a{
+    color: white;
+    font-size: 2em ;
+    margin-left: 5%;
+    transition: .2s;
+    
+}
+
+footer .interiordefooter a:hover{
+   
+    transform: scale(1.1);
+    
+}
+
+footer .interiordefooter p{
+    color: white;
+    margin-left: 70%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive 1200*/
+
+@media (max-width:1200px){
+    nav ul li{
+        margin-left: 0;
+    }
+
+
+    #Bolsasdepapel .card{
+        border: none;
+        box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.6);
+        margin-left: 10%;
+        margin-top: 2%;
+        
+    
+    
+    
+    
+    }
+
+
+    #Empaquesycajas .card{
+        border: none;
+        box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.6);
+        margin-left: 10%;
+        margin-top: 2%;
+        
+    
+    
+    
+    
+    }
+    
+    
+    
+}
+
+
+
+
+
+/*reponsive960*/
+
+@media (max-width:992px){
+    nav ul li{
+        margin-right: 3px;
+    }
+
+    #Bolsasdepapel .card{
+        border: none;
+        box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.6);
+        margin-left: 5%;
+        margin-top: 2%;
+        
+    
+    
+    
+    
+    }
+
+
+
+    #Empaquesycajas .card{
+        border: none;
+        box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.6);
+        margin-left: 5%;
+        margin-top: 2%;
+        
+    
+    
+    
+    
+    }
+    
+    
+}
+
+
+
+
+
+/*reponsive768*/
+
+@media (max-width:768px){
+    nav ul li{
+        margin-right: 3px;
+    }
+
+    #Bolsasdepapel .card{
+        border: none;
+        box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.6);
+        margin-left: 23%;
+        margin-top: 2%;
+        
+    
+    
+    
+    
+    }
+
+    #Empaquesycajas .card{
+        border: none;
+        box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.6);
+        margin-left: 23%;
+        margin-top: 2%;
+        
+    
+    
+    
+    
+    }
+    
+    
+}
+
+
+
+/*reponsive576*/
+
+@media (max-width:576px){
+
+
+    #Bolsasdepapel{
+        padding-top: 20%;
+    }
+
+    #Bolsasdepapel .card{
+        border: none;
+        box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.6);
+        margin-left: 15%;
+        margin-top: 2%;
+        
+    
+    
+    
+    
+    }
+
+
+
+
+    #Empaquesycajas .card{
+        border: none;
+        box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.6);
+        margin-left: 15%;
+        margin-top: 2%;
+        
+    
+    
+    
+    
+    }
+    
+    
+}
+
+
+
+
+@media only screen and (max-width: 482px) and (min-width: 400px){
+
+
+
+
+
+    #Bolsasdepapel{
+        padding-top: 20%;
+    }
+
+    #Bolsasdepapel .card{
+        border: none;
+        
+        box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.6);
+        margin-left: 7%;
+        margin-top: 2%;
+        
+    
+    
+    
+    
+    }
+
+
+
+
+    #Empaquesycajas .card{
+        border: none;
+        box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.6);
+        margin-left: 7%;
+        margin-top: 2%;
+        
+    
+    
+    
+    
+    }
+
+    footer .interiordefooter p{
+        color: white;
+        margin-left: 50%;
+        
+    }
+}
+
+
+
+
+@media only screen and (max-width: 402px) and (min-width: 166px){
+
+
+    #Bolsasdepapel{
+        padding-top: 20%;
+    }
+
+    #Bolsasdepapel .card{
+        border: none;
+        
+        box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.6);
+        margin-left: 0%;
+        margin-top: 5%;
+        
+    
+    
+    
+    
+    }
+
+
+
+
+    #Empaquesycajas .card{
+        border: none;
+        box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.6);
+        margin-left: 0%;
+        margin-top: 5%;
+        
+    
+    
+    
+    
+    }
+
+    
+
+
+    footer .interiordefooter p{
+        color: white;
+        margin-left: 20%;
+        
+    }
+}
+ 

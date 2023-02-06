@@ -1,0 +1,602 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300;400&display=swap');
+
+
+@font-face {
+    font-family: GTEAPAC;
+    font-family: zesant;
+    src: url(Fuentes/zesant);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+
+
+
+
+    
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+    
+    
+
+   
+
+}
+
+
+/*Barra de navegacion*/
+
+nav{
+    box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.24);
+    background-color: white;
+    top: 0;
+    
+    
+}
+nav ul{
+    margin-left: 25%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+   
+
+}
+nav ul li{
+    margin-left: 8%;
+    
+
+}
+
+nav ul li .cotizanav a{
+    color: #bcc20e;
+    transition: .2s;
+}
+
+
+
+nav ul li a:hover{
+    background-color: #2889c917;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+#clientes{
+    background-color: rgb(41, 41, 41);
+    height: 50px;
+    
+}
+
+
+#clientes .imagenesclientes{
+    display: flex;
+    
+}
+
+
+
+#clientes .imagenesclientes img{
+    width: 15%;
+}
+/*carrusel*/
+
+#Inicio .botoncarrusel{
+
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    transition: .2s;
+    color: white;
+    
+    border-color:white;
+
+    
+}
+
+#Inicio .botoncarrusel:hover{
+   
+    background-color: white;
+    color:#E62188 ;
+    
+    
+}
+
+
+
+
+
+/*servicios*/
+
+
+#Servicios{
+    height: 100vh;
+    background-color: rgb(245, 243, 242);
+}
+
+
+
+
+#Servicios .serviciostitulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    
+    
+    
+    
+    color: #bcc20e;
+    text-align: center;
+
+    
+}
+
+
+
+
+#Servicios .tarjeta1{
+    
+    background-color: #E62188;
+    color: white;
+    text-align: center;
+    box-shadow: 10px 11px 17px -3px rgba(0,0,0,0.22);
+    
+}
+
+#Servicios .tarjeta1 h5{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+
+#Servicios .tarjeta1 img{
+    
+    transition: .4s;
+
+    
+}
+
+#Servicios .tarjeta1 img:hover{
+   
+    filter: grayscale(80%);
+   
+}
+
+
+
+#Servicios .tarjeta1 a{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    transition: .2s;
+    color: white;
+    
+    border-color:white;
+
+    
+}
+
+#Servicios .tarjeta1 a:hover{
+   
+    background-color: white;
+    color:#E62188 ;
+    
+    
+}
+
+
+
+
+
+#Servicios .tarjeta2{
+    
+    background-color: #2888C9;
+    box-shadow: 10px 11px 17px -3px rgba(0,0,0,0.22);
+    color: white;
+    text-align: center;
+    
+}
+#Servicios .tarjeta2 h5{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+
+#Servicios .tarjeta2 img{
+    
+    transition: .4s;
+
+    
+}
+
+#Servicios .tarjeta2 img:hover{
+   
+    filter: grayscale(80%);
+    
+}
+
+
+#Servicios .tarjeta2 a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: .2s;
+    color: white;
+    
+    border-color:white;
+
+    
+}
+
+#Servicios .tarjeta2 a:hover{
+   
+    background-color: white;
+    color:#2888C9 ;
+    
+}
+
+
+
+
+
+
+/*encuntranos*/
+
+#encuentranos{
+    
+    background-color: rgb(245, 243, 242);
+    height: 100vh;
+    
+}
+
+
+
+
+
+#encuentranos h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    color: #2888C9;
+}
+
+
+
+#encuentranos iframe{
+    width: 1000px;
+    margin: auto;
+}
+
+
+
+#encuentranos p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    margin-top: 2%;
+   
+    color: #E62188;
+}
+
+#encuentra{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    margin-top: 2%;
+   
+    color: #2888C9;
+}
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+
+
+
+footer{
+    background-color: #2888C9;
+    height: 90px;
+}
+
+
+footer .interiordefooter{
+    display: flex;
+    
+}
+
+
+footer .interiordefooter a{
+    color: white;
+    font-size: 2em ;
+    margin-left: 5%;
+    transition: .2s;
+    
+}
+
+footer .interiordefooter a:hover{
+   
+    transform: scale(1.1);
+    
+}
+
+footer .interiordefooter p{
+    color: white;
+    margin-left: 70%;
+    
+}
+
+
+
+
+/*responsive 1200*/
+
+@media (max-width:1200px){
+    nav ul li{
+        margin-left: 0;
+    }
+    
+    
+    
+}
+
+
+
+
+
+/*reponsive960*/
+
+@media (max-width:992px){
+    nav ul li{
+        margin-right: 3px;
+    }
+
+    /*barra de clientes*/
+    #clientes{
+        background-color: rgb(41, 41, 41);
+        height: 60px;
+        
+    }
+    
+    
+    #clientes .imagenesclientes{
+        display: flex;
+    }
+    
+    
+    
+    #clientes .imagenesclientes img{
+        
+        
+        
+    }
+
+
+
+    #encuentranos iframe{
+
+
+        height: 350px;
+        
+        
+        
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+/*reponsive768*/
+
+@media (max-width:768px){
+   
+    
+    
+    #clientes .imagenesclientes{
+        display: flex;
+    }
+    
+    
+    
+    #clientes .imagenesclientes{
+        
+       
+        
+    }
+
+
+    #clientes .imagenesclientes img{
+        
+        width: 20%;
+        
+    }
+
+
+    #encuentranos iframe{
+
+
+        height: 300px;
+        width: 800px;
+        
+        
+        
+    }
+
+
+
+
+    footer .interiordefooter p{
+        color: white;
+        margin-left: 50%;
+        
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+/*reponsive576*/
+
+@media (max-width:576px){
+   
+    
+    
+    #clientes{
+        
+    }
+    
+    
+    
+    #clientes .imagenesclientes{
+       
+       display: block;
+       
+       
+        
+    }
+
+
+    #clientes .imagenesclientes img{
+        
+        width: 15%;
+        margin-right: 8%;
+       
+       
+        
+    }
+
+
+    #Servicios{
+        height: 210vh;
+        background-color: rgb(245, 243, 242);
+    }
+
+
+    #encuentranos iframe{
+
+
+        height: 300px;
+        width: 800px;
+        
+        
+        
+    }
+    
+
+
+
+
+    footer .interiordefooter p{
+        color: white;
+        margin-left: 50%;
+        
+    }
+    
+    
+    
+}
+
+
+
+@media only screen and (max-width: 482px) and (min-width: 400px){
+    
+
+    
+    #carouselExampleCaptions img{
+        
+        margin-top: 20%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 402px) and (min-width: 200px){
+    
+
+    #carouselExampleCaptions img{
+        
+        margin-top: 25%;
+    }
+
+
+
+
+
+    #encuentranos h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+        color: #2888C9;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 402px) and (min-width: 166px){
+    
+
+    #carouselExampleCaptions img{
+        
+        margin-top: 25%;
+    }
+
+
+
+    #Servicios{
+        height: 150vh;
+        background-color: rgb(245, 243, 242);
+    }
+
+
+
+
+    #encuentranos h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        color: #2888C9;
+    }
+
+
+
+}

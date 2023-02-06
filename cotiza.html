@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMAGENES/faviconlogo_Mesa de trabajo 1.png" type="image/x-icon">
+    <title>Egracol</title>
+    <link rel="stylesheet" href="CSS/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/egccotiza.css">
+
+    <!--swiper css-->
+
+    
+
+
+
+
+</head>
+<body>
+ <!---Nav-->
+ <nav class="navbar navbar-expand-lg"  style="position: fixed; z-index: 1000; width: 100%;">
+  <div class="container-fluid">
+    <a class="navbar-brand ps-5" href="INDEX.html"><img src="imagenes/logo de EGC_Mesa de trabajo 1.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Galeria de Productos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Galeriadeproductos.html#">Bolsas de Papel</a></li>
+            <li><a class="dropdown-item" href="Galeriadeproductos.html#Empaquesycajas">Empaques y Cajas</a></li>
+            
+          </ul>
+          <li class="Quienessomos nav-item">
+            <a class="quienessomos nav-link" style="color: #CDD213;" href="conocenos.html">Conocenos</a>
+          </li>
+          <li class="Encuentranos nav-item">
+            <a class="nav-link" style="color: #E51481; " href="INDEX.html#encuentranos">Encuentranos</a>
+          </li>
+          <li class="cotizanav  nav-item">
+            <a class="nav-link" style="color: #2888C9;"  href="cotiza.html">Cotiza</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+  </nav>
+
+
+
+    <!--Cotizador-->
+
+
+
+
+  <section id="cotizar" class=" pt-5 pb-5">
+
+ 
+    <form action="" class="formulario">
+      <img src="IMAGENES/logo de editores_Mesa de trabajo 1.png" class="imgLogo" />
+
+      <h1 class="formulario__titulo">Cotiza</h1>
+      
+      <p class="formulario__parrafo">
+        Llena este pequeño formulario para cotizar tus Productos
+      </p>
+
+      <label for="cliente" class="formulario__label">¿Cuál es tu nombre?</label>
+      <input
+        id="cliente"
+        type="text"
+        class="formulario__input"
+        placeholder="Indica cuál es tu nombre completo"
+      />
+
+      <label for="Productos" class="formulario__label"
+        >Referencias de Productos</label
+      >
+      <select id="Productos" name="listaservicios" class="formulario__input">
+        
+        <option>Bolsa pequeña BA-002</option>
+        <option>Bolsa AC mediana BT-043</option>
+        <option>Bolsa AC pequeña BT-042</option>
+        <option>Bolsa BA-004</option>
+        <option>Bolsa BA-005 </option>
+        <option>Bolsa BA-007</option>
+        <option>Bolsa BA-008</option>
+        <option>Bolsa BT-039</option>
+        <option>Bolsa BT-040</option>
+        <option>Bolsa BT-041</option>
+        <option>Bolsa BT-045</option>
+        <option>Bolsa BT-046</option>
+        <option>Bolsa BT-047</option>
+        <option>Bolsa BT-038</option>
+        <option>Bolsa BT-003</option>
+        <option>Bolsa BT-001</option>
+        <option>Bolsa BT-048</option>
+        <option>Bolsa BT-051</option>
+        <option>Bolsa BT-049</option>
+        <option>Bolsa BT-002</option>
+        <option>Bolsa BT-052</option>
+        <option>Bandeja alimentos EA-021</option>
+        <option>Bandeja alimentos EA-024</option>
+        <option>Bandeja alimentos EA-025</option>
+        <option>Bandeja alimentos EA-067</option>
+        <option>Bandeja alimentos EA-068</option>
+        <option>Bandeja alimentos EA-050</option>
+        <option>Bandeja alimentos EA-028</option>
+        <option>Caja Papas EA-018</option>
+        <option>Caja Papas pequeñas EA-020 </option>
+        <option>Caja Papas Grande EA-023</option>
+        <option>Caja Papas pequeñas EA-019</option>
+        <option>Caja Papas pequeñas EA-022</option>
+        <option>Caja para Envios EA-036</option>
+        <option>Caja Rectangular EA-033</option>
+        <option>Caja de Regalo Grande EA-029</option>
+        <option>Caja de Regalo Mediana EA-030</option>
+        <option>Caja de Regalo Pequeña EA-029</option>
+        <option>EA-054</option>
+        <option>EA-055</option>
+        <option>EA-057</option>
+        <option>Porta Perro EA-027</option>
+        
+
+        
+      </select>
+
+      <label for="Cantidades" class="formulario__label">Cantidades:</label>
+      <input
+        id="Cantidades"
+        type="number"
+        min="0"
+        max="500000000"
+        class="formulario__input"
+        placeholder="Cantidades"
+      />
+
+      <label for="Tintas" class="formulario__label"
+        >Indica que tipo de tinta va tener tu producto</label
+      >
+      <select id="Tintas" name="listaservicios" class="formulario__input">
+        <option>Policromia</option>
+        <option>Pantone(Especial)</option>
+        <option>Policromia y Pantone</option>
+        
+      </select>
+
+      <label for="Cantidadtintas" class="formulario__label"
+        >Cuantas Tintas Manejaras(incluye pantones)</label
+      >
+      <input
+        id="Cantidadtintas"
+        type="number"
+        min="0"
+        max="100"
+        class="formulario__input"
+        placeholder="Cantidades"
+      />
+
+
+
+      <label for="Medidas" class="formulario__label">¿Cuál son las Medidas en CM? (Especificar Ancho y Largo)</label>
+      <input
+        id="Medidas"
+        type="text"
+        class="formulario__input"
+        placeholder="Indica las Medidas en Cm"
+      />
+
+
+
+      <div id="respuesta"></div>
+
+      <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+    </form>
+
+      </div>
+    </div>
+
+
+  </section>  
+
+    
+
+
+    
+  
+           
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    <footer>
+
+
+
+
+      <div class="interiordefooter pt-4">
+        <a href="mailto:editoresgraficos@gmail.com>"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+575424097"><i class="fa-solid fa-phone"></i></a>
+        <p>© 2023 EGC.com</p>
+      </div>
+    
+    
+    
+    </footer>
+
+    
+      
+      <script src="https://kit.fontawesome.com/4b11d78e14.js" crossorigin="anonymous"></script>
+
+      <script src="CSS/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.js"></script>
+
+      <script src="js/egccotiza.js"></script>
+</body>
+</html>
